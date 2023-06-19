@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ejercicio 7</title>
+  </head>
+  <body>
+    <script>
+      // Solicitar tres números al usuario
+      var num1 = parseFloat(prompt("Ingrese el primer número:"));
+      var num2 = parseFloat(prompt("Ingrese el segundo número:"));
+      var num3 = parseFloat(prompt("Ingrese el tercer número:"));
+
+      // Verificar cuál es el mayor número
+      var mayor = num1; // Suponemos que el primer número es el mayor inicialmente
+
+      if (num2 > mayor) {
+        mayor = num2;
+      }
+
+      if (num3 > mayor) {
+        mayor = num3;
+      }
+
+      // Mostrar el resultado
+      console.log("El mayor de los tres números es: " + mayor);
+    </script>
+  </body>
+</html>

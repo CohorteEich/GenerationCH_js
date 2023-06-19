@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 9</title>
+</head>
+<body>
+   <script>
+// Solicitar una frase al usuario mediante propt
+var frase = prompt("Ingrese una frase:");
+// Convertir a mninsculas (para considerar tanto "a" como "A")
+frase = frase.toLowerCase();
+// Inicializar contador
+var contador = 0;
+// Recorrer la frase y contar la cantidad de veces que aparece la letra "a"
+for (var i = 0; i < frase.length; i++) {
+  if (frase.charAt(i) === 'a') {
+    contador++;
+  }
+}
+// Mostrar el resultado por pantalla y consola 
+console.log("La letra 'a' aparece " + contador + " veces en la frase : " + frase);
+document.write("La letra 'a' aparece " + contador + " veces en la frase : "+ frase);
+
+   </script>
+</body>
+</html>
