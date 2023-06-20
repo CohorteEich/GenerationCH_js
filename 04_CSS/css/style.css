@@ -1,0 +1,51 @@
+
+/* ejemplo para referencias a una etiqueta directamente */
+
+body {
+    text-align: center;
+    color: aliceblue;
+}
+
+/* ejemplo para estilos a una clase (se comienza con punto) */
+.formato_titulos {
+    color: rgb(7, 22, 73);
+}
+
+/* ejemplo para aplicar estilos a un id (se empieza con #) */
+#contenedor_principal {
+    background-color: brown;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+#cabecera {
+    background-color: aqua;
+    padding: 3px;
+}
+
+#menu {
+    background-color: antiquewhite;
+}
+
+#izquierda {
+    background-color: burlywood;
+    float: left;
+    width: 70%;
+}
+
+#derecha {
+    background-color:blueviolet;
+    float: right;
+    width: 30%;
+}
+
+#pie {
+    background-color:dodgerblue;
+    clear: both;
+    padding: 10px;
+}
+
+.flexdocum {
+    display: flex;
+    justify-content: center;
+}
