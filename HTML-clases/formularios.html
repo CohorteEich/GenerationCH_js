@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formularios HTML</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- para crear formularios dentro de HTML utilizamos la etiqueta <form></form>-->
     <form action="#"></form>
-</body>
+    <hr />
+    <!-- dentro del form utilizamos el campu input siendo uno de los mas importantes 
+dentro de un formulario este input tiene atributos en los cuales destaca siempre type -->
+    <h2>Formularios tipos de input</h2>
+    <form action="">
+      <label for="nombre">Nombre</label>
+      <input
+        type="text"
+        name="nombre"
+        placeholder="porfavor escribe tu nombre"
+      />
+      <br />
+      <label for="email">correo</label>
+      <input type="email" name="email" />
+      <br />
+      <label for="password">Contraseña</label>
+      <input type="password" name="password" />
+      <br />
+      <label for="check">selecciona el check</label>
+      <input type="checkbox" name="check" />
+      <br />
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="javascript">JavaScript</label>
+    </form>
+
+    <hr />
+    <h2>Ejemplo de fieldset</h2>
+    <form>
+
+        <fieldset>
+         <legend>Información Personal</legend>
+         Nombre: <input name='nombre' type='text' tabindex='1'>
+         Apellidos: <input name='apellidos' type='text' tabindex='2'>
+        </fieldset>
+       
+        <fieldset>
+         <legend>edad</legend>
+         <input type='checkbox' tabindex='20'
+                   name='edad' value='20-39' > 20-39
+         <input type='checkbox' tabindex='21'
+                   name='edad' value='40-59' > 40-59
+         <input type='checkbox' tabindex='22'
+                   name='edad' value='60-79' > 60-79
+        </fieldset>
+       
+       </form>
+
+       <!-- Ejemplo 2 usando radio -->
+
+<form method = "post"  id="formm">
+    <div>
+        <label>Pregunta 1</label>
+        <input type = "radio" name = "preg1" value = "foo" /> Opción 1
+        <input type = "radio" name = "preg1" value = "bar" /> Opción 2
+    </div>
+ 
+    <div>
+        <label>Pregunta 2</label>
+        <input type = "radio" name = "preg2" value = "foo" /> Opción 1
+        <input type = "radio" name = "preg2" value = "bar" /> Opción 2
+    </div>
+ 
+    <div>
+        <label>Pregunta 3</label>
+        <input type = "radio" name = "preg3" value = "foo" /> Opción 1
+        <input type = "radio" name = "preg3" value = "bar" /> Opción 2
+    </div>
+ 
+    <input type = "submit" />
+</form>
+
+<script src="/formulario.js"></script>
+  </body>
 </html>
