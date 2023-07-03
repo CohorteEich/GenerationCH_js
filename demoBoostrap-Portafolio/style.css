@@ -1,0 +1,70 @@
+.bgimage {
+    background: url('./img/img-portada.jpg');
+    background-size:cover ;
+    position: relative;
+    height: 100vh;
+}
+
+.hero-text {
+    text-align:center;
+    position: absolute;
+    top:50%;
+    color:white;
+}
+
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_descrip {
+    font-size: 1.5rem;
+}
+
+.iconStyle {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+
+#imgg{
+    width: 200px;
+   
+}
+
+#footer {
+    background-color: rgb(136, 149, 149);
+    height: 150px;
+    
+}
+
+.social-icons {
+    padding-top: 20px;
+    padding-right: 25px;
+    align-items: center;
+
+}
+
+.titleFooter{
+ text-align: center;
+ margin-top: 10%;
+}
+
+
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+
+.whatsapp-float:hover {
+    background-color: #128c7e;
+    color: #fff;
+  }
