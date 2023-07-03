@@ -1,0 +1,17 @@
+#principal{
+    background-color: cadetblue !important;
+    height: 100vh;}
+
+
+    .listaNav{
+        justify-content: end !important;
+    }
+    .carousel-item {
+        height: 80vh;
+        min-height: 300px;
+        background: no-repeat center center ;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+      }
