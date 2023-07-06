@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-inicial-npm",
+  "version": "1.0.0",
+  "description": "proyecto base npm ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Nathalie C",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
